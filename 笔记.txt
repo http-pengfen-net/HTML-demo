@@ -1,1 +1,28 @@
-ѧϰ��վ:https://developer.mozilla.org/zh-CN/docs/Web/HTML
+   学习网站：
+   https://developer.mozilla.org/zh-CN/docs/Learn
+   颜色转换工具：
+   https//serennu.com/colour/hsltorgb.php
+   
+   属性              ID
+<p class="paragrph" id="paral"> Lorem </p> 
+p { color:red ;} //p 直接选择标签
+.paragrph{color:red;} //通过类选择标签
+#paral{color:red;} //通过ID 选择标签  需要保证ID是唯一的。
+
+外边距设置
+p{
+margin-top : 5px ;    上
+margin-bottom : 10px ; 右
+margin-right : 5px ;  下
+magin-left : 10px ;  左
+}
+其他方式
+p{
+margin ； 5px 10px 5px 10px ； //上下左右
+}
+p{
+margin : 5px 10px； // 上下 左右
+}
+p{
+margin: 5px  10px  5px ；// 上下 左 右
+}

@@ -1,120 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <!--头部-->
-    <head>
-        <title>标题1</title>
-         <p><h1>2002年3月30日开始学习HTML<h1></p>
-    </head>
-    <body>
-        <!--注释-->
-       <h1>字体大小1</h1>
-       <h2>字体大小2</h2>
-       <h3>字体大小3</h3>
-       <h4>字体大小4</h4>
-       <h5>字体大小5</h5>
-       <h6>字体大小6</h6>
-      <p>段落1</p>
-      <!--超链接-->
-      <a href="https//www.pengfen.net">鹏芬</a>
-      <!--target="_blank" 超链接打开是新的标签页-->
-      <a href="https://www.google.cn/chrome/"target="_blank">谷歌</a>
-      <!--Lorem回车后自动随机生成一个段落-->
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          Animi quibusdam explicabo dicta temporibus vero assumenda 
-          totam, ex est consequatur quo unde, delectus ullam non quia alias.
-           Eos quidem sequi corrupti?
-        </p>
-       <!--strong 内容加粗显示-->
-        <p>Lorem ,<strong> dolor sit amet consectetur adipisicing elit.</strong>
-             Quisquam odit veniam modi dolorum iste id,
-              culpa beatae similique vero repellat delectus animi totam corrupti, quia esse dolores. 
-            Inventore, dolor nostrum?
-        </p>
-        <!--lists-->
-        <!--列表内容-->
-         <ul>
-             <li>列表内容1</li>
-             <li>列表内容2</li>
-             <li>列表内容3</li>
-             <li>列表内容4</li>
-         </ul> 
-         <ol>
-            <li>列表内容1</li>
-            <li>列表内容2</li>
-            <li>列表内容3</li>
-            <li>列表内容4</li>
-         </ol> 
-         <!--table-->
-         <!--表格-->
-         <table>
-             <thead>
-                 <tr><!--列-->
-                     <th>姓名</th>
-                     <th>性别</th>
-                     <th>年龄</th>
-                     <th>邮箱</th>
-                 </tr>
-             </thead>
-             <!--表头-->
-             <tbody>
-                 <tr>
-                     <td>张三</td>
-                     <td>男</td>
-                     <td>28</td>
-                     <td>138@138.com</td>
-                 </tr>
-                 <tr>
-                    <td>张三</td>
-                    <td>男</td>
-                    <td>28</td>
-                    <td>139@138.com</td>
-                </tr>
-                <tr>
-                    <td>张三</td>
-                    <td>男</td>
-                    <td>28</td>
-                    <td>140@138.com</td>
-                </tr>
-             </tbody>
-         </table>
-<br> <!--空一行-->
-<hr><!--水平分割线-->
-<!-- 表单-->
-<!--Form-->
-<form action="form.js" method="POST"> <!--提交表单之后自执行后续问题 POST 比较安全-->
-    <div>
-        <label>姓名</label>
-        <input type="text" name="name" placeholder="Enter Name">
-    </div>
+<head>
+    <!--以下内容会全部变色，不建议使用stale这种方式-->
+  <!--
+      <title>2020年3月30日学习CSS</title>
+<h1>CSS学习</h1>
+<style>
+    h1 {color: rosybrown;}
+</style>  
+     -->
+<!--以上内容会全部变色，不建议使用style 这种方式-->
+<link rel="stylesheet" href="./css/style.css"
+<title>2020年3月30日学习CSS</title>
 
-    <div>
-        <label>性别</label>
-        <input type="text" name="性别" placeholder="Enter six">
-    </div>
-    <div>
-        <label>年龄</label>
-        <input type="text" name="年龄" placeholder="Enter age">
-    </div>
-    <div>
-        <label>邮箱</label>
-        <input type="邮箱" name="邮箱" placeholder="Enter email">
-    </div>
-        <!--提交按钮-->
-       <input type="提交" name="提交按钮" value="Submit">
-</form>
-    <br>  
-<button>这是一个按钮</button>
-<!--图片插入  来源 是在img文件夹下的 1.jps-->
-<br>
-<br>
-<br>
-<br>
-<img src ="img/1.jpg" alt="this is a img tar">
-<!--引用-->
-<blockquote>一闪一闪亮晶晶，满天都是谢竹星。</blockquote>
-<P><abbr title="谢竹星是一个小说里的人物，像个绿茶婊一样。说什么都同意，做什么都不行，所以叫他白莲花。">白莲花</abbr>注释 is a prestigions collage</P>
-    </body>
 
-<div style="margin-top: 500px;"></div><!--提交空的内容，扩充页面  是CSS 的内容-->
+</head>
+<body>
+    <!--class是一个类 相当于一个打包盒-->
+    <div class="box1">
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Eos sed hic error culpa totam distinctio magni numquam, 
+            elit in atque. Doloremque, molestiae. Atque odit molestias doloremque perferendis, 
+            laudantium qui sequi!</p>
+          
+    </div>
+    <!--container 也是一个类-->
+       <div class="container">
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Eos sed hic error culpa totam distinctio magni numquam, 
+            elit in atque. Doloremque, molestiae. Atque odit molestias doloremque perferendis, 
+            laudantium qui sequi!</p>
+      
+    
+   
+           <div class="box2">
+            <h1>Hello World</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sed hic error culpa totam distinctio magni numquam, elit in atque. Doloremque, molestiae. Atque odit molestias doloremque perferendis, laudantium qui sequi!</p>
+                <button>按钮</button>
+        </div>
+        <div class="list">
+            <ul>
+            <li><a href="#">List 1</a></li>
+            <li><a href="#">List 2</a></li>
+            <li><a href="#">List 3</a></li>
+            <li><a href="#">List 4</a></li>
+            <li><a href="#">List 5</a></li>
+            </ul>
+        </div>
+   
+          <div class="block">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nesciunt eligendi dolorum nihil ratione sapiente optio aspernatur atque non modi.Provident similique maiores obcaecati temporibus deserunt, quia iste cupiditate placeat dolore.</p>
+          </div>
+          <div class="block">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi dolorum nihil ratione sapiente optio aspernatur atque non modi.Provident similique maiores obcaecati temporibus deserunt, quia iste cupiditate placeat dolore.</p>
+         </div>
+                <div class="clearfix"></div> <!--清除浮动-->
+         <div class="block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nesciunt eligendi dolorum nihil ratione sapiente optio aspernatur atque non modiProvident similique maiores obcaecati temporibus deserunt, quia iste cupiditate placeat dolore.</p>
+        </div>
 
+        <div id="main-block">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,illo quae temporibus in quas placeat minus exercitationem laborum iusto. Sequi facilis a cum nostrum labore,illum accusamus nisi ab nam!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,illo quae temporibus in quas placeat minus exercitationem laborum iusto. Sequi facilis a cum nostrum labore,illum accusamus nisi ab nam </p>
+        </div>
+        <div id="sidebar">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,illo quae temporibus in quas placeat minus exercitationem laborum iusto. Sequi facilis a cum nostrum labore,illum accusamus nisi ab nam!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,illo quae temporibus in quas placeat minus exercitationem laborum iusto. Sequi facilis a cum nostrum labore,illum accusamus nisi ab nam </p>
+</div>
+<div class="clearfix"></div> <!--清除浮动-->
+
+<ul class="list2">
+        
+    <li><a href="#">List Iime</a></li>
+    <li><a href="#">List Iime</a></li>
+    <li><a href="#">List Iime</a></li>
+    <li><a href="#">List Iime</a></li>
+    <li><a href="#">List Iime</a></li>
+    <li><a href="#">List Iime</a></li>
+    <li><a href="#">List Iime</a></li>
+    <li><a href="#">List Iime</a></li>
+    <li><a href="#">List Iime</a></li>
+    <li><a href="#">List Iime</a></li>
+</ul>
+<div style="margin-top: 1000px;"></div>
+</div>
+</body>
 </html>
